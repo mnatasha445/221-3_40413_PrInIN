@@ -36,3 +36,18 @@ body > header > div > img
     height: 20%;
     width: 20%;
 }
+  
+li
+{
+    display: inline;
+}
+
+h3.section_subtitles
+{
+    color: blueviolet;
+}
+
+h3#section_titles
+{
+    color: yellow;
+}

@@ -1,6 +1,7 @@
 body {
     background-color: black;
     color: yellow;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 body > header 
@@ -51,4 +52,9 @@ td, th
 tr:nth-child(even)
 {
     background-color: grey;
+}
+
+li
+{
+    display: inline;
 }
