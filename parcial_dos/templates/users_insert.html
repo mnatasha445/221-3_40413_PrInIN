@@ -1,0 +1,12 @@
+{% extends 'layout.html' %}
+{% block body %}
+
+<h1>users_insert</h1>
+
+<form action="{{ url_for('insert_user') }}" method="POST">
+    <input type="email" name="email" id="" placeholder="User email">
+    <input type="password" name="password" id="" placeholder="User password">
+    <input type="submit" value="enter">
+</form>
+
+{% endblock %}

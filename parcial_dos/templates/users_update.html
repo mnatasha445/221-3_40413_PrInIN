@@ -1,0 +1,14 @@
+{% extends 'layout.html' %}
+{% block body %}
+
+<h1>users_update</h1>
+
+<form action="/update_user/{{ user.0 }}" method="POST">
+    <input type="number" name="id" id="" value={{ user.0 }} readonly>
+    <input type="email" name="email" id="" value={{ user.1 }} readonly>
+    <input type="password" name="password" id="" value={{ user.2 }}>
+    <input type="number" name="status" value={{ user.3 }}>
+    <input type="submit" name="enter">
+</form>
+
+{% endblock %}
